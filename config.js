@@ -5,7 +5,7 @@ window.CONFIG = {
   // 1) Tempel URL Web App Google Apps Script di sini (lihat README.md, langkah 3).
   //    Contoh: "https://script.google.com/macros/s/AKfycb.../exec"
   //    Jika dikosongkan, aplikasi berjalan MODE LOKAL (data hanya di perangkat ini).
-  SCRIPT_URL: "",
+  SCRIPT_URL: "https://script.google.com/macros/s/AKfycbwq84vt5Zxss5mVTfa9NA07f8sKt139ztNJd2b1JvGwSazGBcST3dQt5CKG71bAAQtuhA/exec",
 
   JUDUL: "Integrasi Office",
   SUBJUDUL: "PowerPoint × Word × Excel",
