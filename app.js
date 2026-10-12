@@ -155,10 +155,10 @@ function viewLogin() {
     <form class="card" id="fLogin" autocomplete="off">
       <h2>👋 Yuk, masuk dulu!</h2>
       <label for="nama">Nama lengkap</label><input type="text" id="nama" placeholder="Contoh: Lestari Ayu" required maxlength="60">
-      <label for="nis">NIS</label><input type="text" id="nis" inputmode="numeric" placeholder="Nomor Induk Siswa" required maxlength="15">
+      <label for="nis">NIS</label><input type="text" id="nis" inputmode="numeric" placeholder="Nomor Induk Siswa (4 digit)" required maxlength="15">
       <label for="tgl">Tanggal</label><input type="date" id="tgl" required value="${todayISO()}">
       <label for="kls">Kelas</label>
-      <select id="kls" required><option value="">— pilih kelas —</option>${C.KELAS.map(k => `<option>${esc(k)}</option>`).join('')}</select>
+      <select id="kls" required><option value=""> Pilih kelas </option>${C.KELAS.map(k => `<option>${esc(k)}</option>`).join('')}</select>
       <div class="err" id="eLogin"></div>
       <div class="row" style="margin-top:16px"><button class="btn" type="submit">🚀 Mulai Belajar</button>
       <button class="btn ghost sm" type="button" data-go="guru">🔐 Dashboard Guru</button></div>
