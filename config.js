@@ -7,7 +7,7 @@ window.CONFIG = {
   //    Jika dikosongkan, aplikasi berjalan MODE LOKAL (data hanya di perangkat ini).
   SCRIPT_URL: "https://script.google.com/macros/s/AKfycbwq84vt5Zxss5mVTfa9NA07f8sKt139ztNJd2b1JvGwSazGBcST3dQt5CKG71bAAQtuhA/exec",
 
-  JUDUL: "Integrasi Office 2",
+  JUDUL: "Integrasi Office",
   SUBJUDUL: "PowerPoint × Word × Excel",
   MAPEL: "Informatika · Kelas X",
   KELAS: ["X3", "X4"],
