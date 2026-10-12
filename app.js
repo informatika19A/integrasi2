@@ -132,7 +132,7 @@ function renderTop() {
      <button class="btn ghost sm" data-go="home">🏠 Beranda</button><button class="btn pink sm" id="btnOut">Keluar</button>`
       : `<span class="sync" id="syncChip"></span>`);
   const e = $('#syncChip'); if (e) paintSync(e);
-  $('#foot').innerHTML = `© ${new Date().getFullYear()} Media Belajar ${esc(C.MAPEL)} · dibuat dengan ♥ untuk murid hebat`;
+  $('#foot').innerHTML = `© ${new Date().getFullYear()} Media Pembelajaran ${esc(C.MAPEL)} · dibuat dengan ♥ untuk murid hebat`;
 }
 document.addEventListener('click', e => {
   const g = e.target.closest('[data-go]'); if (g) { e.preventDefault(); go(g.dataset.go); return; }
