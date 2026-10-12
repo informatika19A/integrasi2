@@ -13,7 +13,7 @@ window.CONFIG = {
   KELAS: ["X3", "X4"],
 
   // Batas ketuntasan (untuk pewarnaan di dashboard)
-  KKM: 75,
+  KKM: 78,
 
   // Syarat membuka Post-test (ubah angka bila ingin lebih longgar/ketat)
   SYARAT_POSTTEST: { materi: 4, simulasi: 4, kuis: 3 },
