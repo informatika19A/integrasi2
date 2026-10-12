@@ -154,7 +154,7 @@ function viewLogin() {
     </div>
     <form class="card" id="fLogin" autocomplete="off">
       <h2>👋 Yuk, masuk dulu!</h2>
-      <label for="nama">Nama lengkap</label><input type="text" id="nama" placeholder="Contoh: Ayu Lestari" required maxlength="60">
+      <label for="nama">Nama lengkap</label><input type="text" id="nama" placeholder="Contoh: Lestari Ayu" required maxlength="60">
       <label for="nis">NIS</label><input type="text" id="nis" inputmode="numeric" placeholder="Nomor Induk Siswa" required maxlength="15">
       <label for="tgl">Tanggal</label><input type="date" id="tgl" required value="${todayISO()}">
       <label for="kls">Kelas</label>
